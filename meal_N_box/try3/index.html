@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+
+    <link href="../css/footerNavBar.css" rel="stylesheet">
+    <link href="../css/topNavBar.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+        integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/cartQty.css" rel="stylesheet">
+    <link href="../css/slider3.css" rel="stylesheet">
+    <link href="../css/trayModal.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--START OF TOP NAV MENU -->
+    <div class="topNav">
+        <img src="photos/misc/my-icon.ico" height="80px" />
+        <form class="menuSearch" role="search">
+            <input class="menuSearh searchBox" id="itemSearch" type="search" placeholder="Search" aria-label="Search">
+            <button class="searchBot" type="submit">Search</button>
+        </form>
+    </div>
+    <!--END  OF TOP NAV MENU -->
+
+    <!-- START OF BOTTOM NAV MENU-->
+    <div class="navigation">
+        <ul>
+            <li class="list" id="mealMenu">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </span>
+                    <span class="text">Menu</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                    </span>
+                    <span class="text">Seller</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list" id="myBtn">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span class='badge badge-warning' id='lblCartCount'>5</span>
+                    </span>
+                    <span class="text">Tray</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </span>
+                    <span class="text">Login</span>
+                </a>
+            </li>
+            <div class="indicator"> </div>
+        </ul>
+    </div>
+    <!-- END OF BOTTOM NAV MENU-->
+
+    <!-- Start of Main Content-->
+    <!-- Start of image slider for Featured Meals-->
+    <div>
+        <section id="slider" class="mealFeature">
+            <div class="container">
+                <div class="subcontainer">
+                    <div class="slider-wrapper">
+                        <div style="height:70px;">
+                            <br>
+                        </div>
+                        <div>
+                            <h4>Featured Meals</h4>
+                            <hr>
+                        </div>
+                        <div class="my-slider">
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu001" id="Menu001">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5 id="menu1_Name"></h5>
+                                        <p id="menu1_Price"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu002" id="Menu002">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu2_Name">Beef Caldereta</h5>
+                                        <p  id="menu2_Price">Php 150.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu003" id="Menu003">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu3_Name">Adobo</h5>
+                                        <p  id="menu3_Price">Php 90.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu004" id="Menu004">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu4_Name">Spicy Laing</h5>
+                                        <p  id="menu4_Price">Php 59.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu005" id="Menu005">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu5_Name">Tokwa't Baboy</h5>
+                                        <p  id="menu5_Price">Php 59.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu006" id="Menu006">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu6_Name">Pinangat</h5>
+                                        <p  id="menu6_Price">Php 79.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu007" id="Menu007">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu7_Name">Ginataang Kalabasa</h5>
+                                        <p  id="menu7_Price">Php 49.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu008" id="Menu008">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu8_Name">Pork Menudo</h5>
+                                        <p  id="menu8_Price">Php 99.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu009 " id="Menu009">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5 id="menu9_Name">Tapsilog</h5>
+                                        <p  id="menu9_Price">Php 89.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="slide eHovr">
+                                    <div class="menu-img Menu010" id="Menu010">
+                                        <a href="#">ORDER NOW</a>
+                                    </div>
+                                    <br>
+                                    <div class="fPrice">
+                                        <h5  id="menu10_Name">Ginisang Ampalaya</h5>
+                                        <p  id="menu10_Price">Php 59.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    </div>
+    <!-- End of image slider for Featured Meals-->
+
+    <!-- Start of image slider for Best Seller-->
+  
+    <!--End of image slider for Best Seller-->
+    
+
+    <!--Start of Tray Modal-->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <img src="photos/misc/my-icon.ico" height="80px" />
+            <span class="close">&times;</span>
+            <form>
+                <div class="contactDetails_Container">
+
+                </div>
+                <div class="orderDetails_Container">
+
+                </div>
+                <div class="paymentDetails_Container">
+
+                </div>
+                <button type="submit" class="btnProceed">PROCEED</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
+    integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<script src="../js/footerNavBar.js"></script>
+<script src="../js/slider3.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../js/trayModal.js"></script>
+
+</html>

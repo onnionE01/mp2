@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+
+    <link href="bot-navBar.css" rel="stylesheet">
+    <link href="top-NavBar.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+    <link href="imgSlides.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--START OF TOP NAV MENU -->
+    <div class="topNav">
+        <img src="../photos/misc/my-icon.ico" height="80px" />
+        <form class="menuSearch" role="search">
+            <input class="menuSearh searchBox" id="itemSearch" type="search" placeholder="Search" aria-label="Search">
+            <button class="searchBot" type="submit">Search</button>
+        </form>
+    </div>
+    <!--END  OF TOP NAV MENU -->
+
+    <!-- START OF BOTTOM NAV MENU-->
+    <div class="navigation">
+        <ul>
+            <li class="list" id="mealMenu">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </span>
+                    <span class="text">Menu</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                    </span>
+                    <span class="text">Seller</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </span>
+                    <span class="text">Tray</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </span>
+                    <span class="text">Setting</span>
+                </a>
+            </li>
+            <div class="indicator"> </div>
+        </ul>
+    </div>
+    <!-- END OF BOTTOM NAV MENU-->
+
+    <!-- Start of Main Content-->
+
+</body>
+<script src="bot-NavBar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+<script src="imgSlides.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

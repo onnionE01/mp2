@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+
+    <link href="style2.css" rel="stylesheet">
+    <link href="style3.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--START OF TOP NAV MENU -->
+    <div class="topNav">
+        <img src="../photos/misc/my-icon.ico" height="80px" />
+        <form class="menuSearch" role="search">
+            <input class="menuSearh searchBox" id="itemSearch" type="search" placeholder="Search" aria-label="Search">
+            <button class="searchBot" type="submit">Search</button>
+        </form>
+    </div>
+    <!--END  OF TOP NAV MENU -->
+
+    <!-- START OF BOTTOM NAV MENU-->
+    <div class="navigation">
+        <ul>
+            <li class="list" id="mealMenu">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </span>
+                    <span class="text">Menu</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                    </span>
+                    <span class="text">Seller</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </span>
+                    <span class="text">Tray</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </span>
+                    <span class="text">Setting</span>
+                </a>
+            </li>
+            <div class="indicator"> </div>
+        </ul>
+    </div>
+    <!-- END OF BOTTOM NAV MENU-->
+
+    <!-- Start of Main Content-->
+
+
+    <!--Featured Meal-->
+    <div class="myMain-Container">
+        <!--Start New Products Slider-->
+
+        <div style="padding-left:16px">
+            <section id="slider" class="mealFeature">
+                <div class="container">
+                    <div class="subcontainer">
+                        <div class="slider-wrapper">
+                            <div style="height:70px;">
+                                <br>
+                            </div>
+                            <div>
+                                <h4>Featured Meals</h4>
+                                <hr>
+                            </div>
+                            <div class="my-slider imgSlides">
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu001" id="Menu001">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+                                        <div class="fPrice">
+                                            <h5>Chicken Curry</h5>
+                                            <p>Php 99.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu002" id="Menu002">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Beef Caldereta</h5>
+                                            <p>Php 150.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu003" id="Menu003">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Adobo</h5>
+                                            <p>Php 90.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu004" id="Menu004">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Spicy Laing</h5>
+                                            <p>Php 59.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu005" id="Menu005">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Tokwa't Baboy</h5>
+                                            <p>Php 59.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu006" id="Menu006">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Pinangat</h5>
+                                            <p>Php 79.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu007" id="Menu007">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Ginataang Kalabasa</h5>
+                                            <p>Php 49.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu008" id="Menu008">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Pork Menudo</h5>
+                                            <p>Php 99.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu009 " id="Menu009">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Tapsilog</h5>
+                                            <p>Php 89.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu010" id="Menu010">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Ginisang Ampalaya</h5>
+                                            <p>Php 59.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu011" id="Menu011">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Fried Tilapya</h5>
+                                            <p>Php 49.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu012" id="Menu012">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Beef Salpicao</h5>
+                                            <p>Php 159.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu013" id="Menu013">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Beef Adobo</h5>
+                                            <p>Php 149.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu014" id="Menu014">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Lechon Paksiw</h5>
+                                            <p>Php 119.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="productDetails">
+                                    <div class="slide eHovr">
+                                        <div class="menu-img Menu015" id="Menu015">
+                                            <a href="#">ORDER NOW</a>
+                                        </div>
+
+                                        <div class="fPrice">
+                                            <h5>Spaghetti</h5>
+                                            <p>Php 59.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <!--End Feature Products Slider-->
+
+
+        <div>
+            <h2>Featured Meals</h2>
+        </div>
+        <div class="prodScroller snaps-inline">
+
+            <div class="prodDetails">
+                <div class="product-Details prodHovr">
+                    <div class="product-img fProduct1" id="fProduct1">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct2" id="fProduct2">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img  fProduct3" id="fProduct3">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct4" id="fProduct4">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct5" id="fProduct5">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct6" id="Menu012fProduct7">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct7" id="fProduct7">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct8" id="fProduct8">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct9" id="fProduct9">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct10" id="fProduct10">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct11" id="fProduct11">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct12" id="fProduct12">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Best Sellers-->
+
+        <div>
+            <h2>Best Sellers</h2>
+        </div>
+        <div class="prodScroller snaps-inline">
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct1" id="fProduct1">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct2" id="fProduct2">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct3" id="fProduct3">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct4" id="fProduct4">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct5" id="fProduct5">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct6" id="Menu012fProduct7">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct7" id="fProduct7">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct8" id="fProduct8">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct9" id="fProduct9">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct10" id="fProduct10">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="slide prodHovr">
+                    <div class="product-img fProduct11" id="fProduct11">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="prodDetails">
+                <div class="fproduct eHovr">
+                    <div class="product-img fProduct12" id="fProduct12">
+                        <a href="#">ORDER NOW</a>
+                    </div>
+
+                    <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Start of Main Content-->
+    </div>
+</body>
+
+<script>
+    const list = document.querySelectorAll('.list')
+    function activeLink() {
+        list.forEach((item) =>
+            item.classList.remove('active'));
+        this.classList.add('active');
+    }
+    list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+<script src="../js/imageslide.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

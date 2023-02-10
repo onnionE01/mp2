@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pageContainer">
+        <nav class="sideBar">
+            <header>
+                <div class="logoText">
+                    <span class="image">
+                        <img src="../../photos/misc/my-icon.ico" width="100%" alt="Logo" />
+                    </span>
+
+                    <div class="text">
+                        <span class="siteName">meal-N-box</span>
+                        <span class="accountUser">ADMIN ACCOUNT</span>
+                    </div>
+                </div>
+            </header>
+            <div class="sideMenu">
+                <ul class="sideMenuList">
+                    <li>
+                        <button class="menuButton" onclick="getItems()">
+                        <ion-icon name="restaurant-outline"></ion-icon>
+                        FEATURED
+                        </button>
+                    </li>
+
+                    <li >
+                        <button class="menuButton " onclick="">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        ADD PRODUCTS
+                        </button>
+                    </li>
+
+                    <li >
+                        <button class="menuButton" onclick="">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                        
+                    </button>
+                    </li>
+
+                    <li >
+                        <button class="menuButton" onclick="">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                        VENDOR
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        <div class="contentContainer">
+            <div class="feature-container">
+                <h2>Feature Meals Table</h2>
+                <br>
+                <div class="divfeature">
+                    <table id="featTable" style="width: 100%; border:1px;">
+                        <tr>
+                            <th>Menu ID</th>
+                            <th>Product Photo</th>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Vendor</th>
+                            <th>Available Serving</th>
+                            <th>Action</th>
+                        </tr>
+                        <tbody class="featureTable">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <body>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="featureScript.js"></script>
+
+</html>

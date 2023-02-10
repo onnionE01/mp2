@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.vendor-img{
+    width:100%;
+    height:200px;
+    border-radius:5px;
+    background-position: center;
+    background-size: cover;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.vendor-img:hover{
+    box-shadow: 0 0 0 200px rgb(17, 17, 17 0.8) inset;
+}
+
+.vendor-img a{
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color:rgb(44, 247, 203);
+}
+
+.vendor-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.eHov .vendor-img{
+   border: 0px solid  rgb(44, 247, 203);
+   transform: scale(1);
+   transition: 0.3s;
+}
+
+.eHov:hover .vendor-img{
+    border: 5px solid  rgb(44, 247, 203);
+    transform: scale(1.15);
+}
+
+.Vendor001{
+    background-image: url('../photos/vendors/Vendor001.jpg');
+}
+.Vendor002{
+    background-image: url('../photos/vendors/Vendor002.jpg');
+}
+.Vendor003{
+    background-image: url('../photos/vendors/Vendor003.jpg');
+}
+.Vendor004{
+    background-image: url('../photos/vendors/Vendor004.jpg');
+}
+.Vendor005{
+    background-image: url('../photos/vendors/Vendor005.jpg');
+}
+.Vendor006{
+    background-image: url('../photos/vendors/Vendor006.jpg');
+}
+
+.mealFeature {
+    top:100px;
+
+}
+
+@media(max-width:1600px){
+    .container{
+        width:100%;
+    }
+}

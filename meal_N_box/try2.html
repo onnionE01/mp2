@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+  <title>MEAL-N-BOX</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-utilities.css" rel="stylesheet">
+  <link href="css/bootstrap-utilities.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+  <!--for tiny slider from cdnjs.com-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--for navbar-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/navStyle2.css" rel="stylesheet">
+  <link href="css/slider.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <!--START OF NAVBAR SECTION-->
+
+  <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active"><img src="photos/misc/site-logo.png" height="50px" /></a>
+      <div id="myLinks">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <div class="container" onclick="xFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </a>
+    </div>
+    <!--END OF NAVBAR SECTION-->
+
+    <!--Start Featured Product Carousel-->
+    <div class="container">
+      <h2>Carousel Example</h2>  
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="../meal_N_box/photos/products/Menu_017.jpg" alt="Los Angeles" style="width:800px; height:500px;">
+          </div>
+    
+          <div class="item">
+            <img src="../meal_N_box/photos/products/Menu_021.jpg" alt="Chicago" style="width:800px; height:500px;">
+          </div>
+        
+          <div class="item">
+            <img src="../meal_N_box/photos/products/Menu_011.jpg" alt="New york" style="width:800px; height:500px;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <!--End of Featured Product Carousel-->
+
+    <!--Start New Products Slider-->
+
+    <div style="padding-left:16px">
+        <section id="slider" class="mealFeature">
+          <div class="container">
+            <div class="subcontainer">
+              <div class="slider-wrapper">
+                <div style="height:70px;">
+                  <br>
+                </div>
+                <div>
+                  <h4>Featured Meals</h4>
+                  <hr>
+                </div>
+                <div class="my-slider">
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu001" id="Menu001">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+                      <div class="fPrice">
+                        <h5>Chicken Curry</h5>
+                        <p>Php 99.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu002" id="Menu002">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Beef Caldereta</h5>
+                        <p>Php 150.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu003" id="Menu003">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Adobo</h5>
+                        <p>Php 90.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu004" id="Menu004">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Spicy Laing</h5>
+                        <p>Php 59.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu005" id="Menu005">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Tokwa't Baboy</h5>
+                        <p>Php 59.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu006" id="Menu006">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Pinangat</h5>
+                        <p>Php 79.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu007" id="Menu007">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Ginataang Kalabasa</h5>
+                        <p>Php 49.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu008" id="Menu008">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Pork Menudo</h5>
+                        <p>Php 99.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu009 " id="Menu009">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Tapsilog</h5>
+                        <p>Php 89.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu010" id="Menu010">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Ginisang Ampalaya</h5>
+                        <p>Php 59.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu011" id="Menu011">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Fried Tilapya</h5>
+                        <p>Php 49.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu012" id="Menu012">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Beef Salpicao</h5>
+                        <p>Php 159.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu013" id="Menu013">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Beef Adobo</h5>
+                        <p>Php 149.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu014" id="Menu014">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Lechon Paksiw</h5>
+                        <p>Php 119.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <div class="slide eHovr">
+                      <div class="menu-img Menu015" id="Menu015">
+                        <a href="#">ORDER NOW</a>
+                      </div>
+
+                      <div class="fPrice">
+                        <h5>Spaghetti</h5>
+                        <p>Php 59.00</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    </section>
+  </div>
+  <!--End Feature Products Slider-->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<!--for the tiny slider cdnjs.com-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="js/navStyle2.js"></script>
+<script src="js/imageslide.js"></script>
+
+</html>
+
+</html>

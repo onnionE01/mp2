@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(226, 245, 241);
+}
+
+.dropMenu {
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-size: 30px;
+    width: 60%;
+    float: left;
+}
+
+.dropM {
+    background-color: #41b3a3;
+    font-size: 20px;
+}
+
+.lMenuOpt {
+    font-size: 20px;
+    font-family: Arial;
+    color: #f4df4eff;
+}
+
+.divMenu {
+    opacity: 60;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.menuPic {
+    width: 180px;
+}
+
+.sideMenu {
+    background-color: #f4df4eff;
+    color: #949398ff;
+    font-family: Arial;
+    font-size: 30px;
+    width: 40%;
+    height: 50px;
+    float: right;
+    text-align: right;
+}
+
+.sideMenu1 {
+    background-color: #f4df4eff;
+    height: 220px;
+    margin-top: 20px;
+    padding-top: 5px0;
+    padding-bottom: 5px;
+}
+
+.lsideOption {
+    float: inline-end
+}
+
+.slideMenu {
+    background-color: rgb(102, 101, 101);
+    height: 300px;
+    margin-top: 20px;
+}
+
+.tableImg {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.divSpace {
+    background-color: grey;
+    padding: 10px;
+}
+
+p {
+    color: rgb(238, 60, 54);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.fvendor {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.fPrice {
+    background-color: #61aca2c7;
+    border-radius: 5px;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(48, 47, 47);
+    padding-top: 5px;
+}
+
+.nav-button {
+    border: none;
+    font-family: Arial;
+    font-size: 80%;
+    font-weight: bolder;
+    color: rgb(241, 240, 240);
+    background-color: #067e6e;
+}
+
+.nav-button:hover {
+    border: none;
+    font-family: Arial;
+    font-size: 80%;
+    font-weight: bolder;
+    color: rgb(241, 240, 240);
+    background-color: #07f8d8;
+}
+
+.myfooter {
+    background-color: #41b3a3;
+    height: 50px;
+    padding: 5px;
+    align-content: flex-end;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(24, 23, 23);
+}
+
+.divfooter {
+    background-color: #41b3a3;
+    width: 200px;
+    float: right;
+}
+
+.my-order-divover {
+
+    z-index: 2400;
+
+}
+
+.contentContainer {
+    display: grid;
+    grid-auto-flow: row;
+}

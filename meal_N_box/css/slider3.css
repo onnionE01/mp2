@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+}
+
+.slider {
+    height: 200px;
+    border: 1px solid azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+
+}
+
+.subcontainer {
+    width: 100%;
+    margin: auto;
+
+}
+
+.menu-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.menu-img:hover {
+    box-shadow: 0 0 0 200px rgb(17, 17, 17 0.8) inset;
+    border: 2px solid rgb(32, 248, 201) inset;
+}
+
+.menu-img a {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    color: rgb(32, 248, 201);
+}
+
+.menu-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.eHovr .menu-img {
+    border: 0px solid rgb(44, 247, 203);
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.eHovr:hover .menu-img {
+    border: 3px solid rgb(44, 247, 203);
+    transform: scale(1.01);
+}
+
+.Menu001 {
+    background-image: url('Pmenu/Menu_001.jpg');
+}
+
+.Menu002 {
+    background-image: url('Pmenu/Menu_002.jpg');
+}
+
+.Menu003 {
+    background-image: url('Pmenu/Menu_003.jpg');
+}
+
+.Menu004 {
+    background-image: url('Pmenu/Menu_004.jpg');
+}
+
+.Menu005 {
+    background-image: url('Pmenu/Menu_005.jpg');
+}
+
+.Menu006 {
+    background-image: url('Pmenu/Menu_006.jpg');
+}
+
+.Menu007 {
+    background-image: url('Pmenu/Menu_007.jpg');
+}
+
+.Menu008 {
+    background-image: url('Pmenu/Menu_008.jpg');
+}
+
+.Menu009 {
+    background-image: url('Pmenu/Menu_009.jpg');
+}
+
+.Menu010 {
+    background-image: url('Pmenu/Menu_010.jpg');
+}
+
+
+.mealFeature {
+    top: 100px;
+
+}
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
+    }
+}
+

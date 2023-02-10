@@ -1,0 +1,17 @@
+.vendor-container {
+    top: 100px;
+    width: 1200px;
+    margin: auto;
+    background-color: rgb(202, 247, 244);
+}
+
+.vendor-list {
+    width: 70%;
+    background-color: rgb(115, 117, 117);
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 10%;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

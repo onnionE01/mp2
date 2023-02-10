@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*=====color=====*/
+    --colorA: #0B0C10;
+    --colorOpa: #0b0c10c1;
+    --colorB: #1f2833;
+    --colorC: #C5C6C7;
+    --colorD: #66FCF1;
+    --colorE: #45A29E;
+    --colorF: #bbf4f1;
+    
+    --trans-02: all 0.2s ease;
+    --trans-03: all 0.3s ease;
+    --trans-04: all 0.4s ease;
+    --trans-05: all 0.5s ease;
+
+}
+
+body {
+    background-color: white;
+}
+
+/*=====Reusable=====*/
+.sideBar .text {
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.sideBar  .logoText {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+.pageContainer {
+    width: 1600px;
+    margin: auto;
+}
+
+.contentContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color:var(--colorF);
+    width: 80%;
+    height: 600px;
+    float: right;
+    margin-top: 0;
+    margin-right: 2%;
+    padding: 10px;
+}
+
+.sideBar {
+    position: fixed;
+    background-color: var(--colorOpa);
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 10px;
+    color: #66FCF1;
+    align-items: center;
+}
+
+.sideBar header .logo {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.user .logo {
+    width: 90%;
+    height: 5rem;
+    border-radius: 5px;
+    color: #66FCF1;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+}
+
+.menuButton {
+    width: 90%;
+    height: 5rem;
+    border-radius: 5px;
+    border: 2px solid #66FCF1;
+    color: #66FCF1;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+}
+
+.menuButton:hover {
+    background-color: #66FCF1;
+    color: #1f2833;
+}
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
+    }
+}

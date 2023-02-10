@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+
+    <link href="../../css/footerNavBar.css" rel="stylesheet">
+    <link href="../../css/topNavBar.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="../../css/cartQty.css" rel="stylesheet">
+    <link href="../../css/slider1.css" rel="stylesheet">
+    <link href="../../css/trayModal.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--START OF TOP NAV MENU -->
+    <div class="topNav">
+        <img src="../../photos/misc/my-icon.ico" height="80px" />
+        <form class="menuSearch" role="search">
+            <input class="menuSearh searchBox" id="itemSearch" type="search" placeholder="Search" aria-label="Search">
+            <button class="searchBot" type="submit">Search</button>
+        </form>
+    </div>
+    <!--END  OF TOP NAV MENU -->
+
+    <!-- START OF BOTTOM NAV MENU-->
+    <div class="navigation">
+        <ul>
+            <li class="list" id="mealMenu">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </span>
+                    <span class="text">Menu</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                    </span>
+                    <span class="text">Seller</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list" id="myBtn">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span class='badge badge-warning' id='lblCartCount'>5</span>
+                    </span>
+                    <span class="text">Tray</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </span>
+                    <span class="text">Login</span>
+                </a>
+            </li>
+            <div class="indicator"> </div>
+        </ul>
+    </div>
+    <!-- END OF BOTTOM NAV MENU-->
+
+    <!-- Start of Main Content-->
+    <!-- Start of image slider for Featured Meals-->
+    <div class="contentContainer">
+        <section id="slider-section">
+            <div class="myContainer">
+                <div class="mySubContainer">
+                    <div class="slidesWrapper">
+                        <h2>Feature Meals</h2>
+                        <br>
+                        <div class="slider">
+
+                        </div>
+                        <div id="controls">
+                            <button class="prev">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button class="next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End of image slider for Featured Meals-->
+
+        <!-- Start of image slider for Best Seller-->
+        <section id="slider-section">
+            <div class="myContainer">
+                <div class="mySubContainer">
+                    <div class="slidesWrapper">
+                        <h2>Feature Meals</h2>
+                        <br>
+                        <div class="slider">
+
+                        </div>
+                        <div id="controls">
+                            <button class="prev">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </button>
+                            <button class="next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--End of image slider for Best Seller-->
+    </div>
+
+    <!--Start of Tray Modal-->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <img src="../../photos/misc/my-icon.ico" height="80px" />
+            <span class="close">&times;</span>
+            <form>
+                <div class="contactDetails_Container">
+
+                </div>
+                <div class="orderDetails_Container">
+
+                </div>
+                <div class="paymentDetails_Container">
+
+                </div>
+                <button type="submit" class="btnProceed">PROCEED</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+<script src="../../js/footerNavBar.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+<script src="../../js/slider1.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="../../js/trayModal.js"></script>
+
+</html>

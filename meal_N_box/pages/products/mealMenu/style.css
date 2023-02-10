@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*=====color=====*/
+    --colorA: #0B0C10;
+    --colorOpa: #0b0c10c1;
+    --colorB: #1f2833;
+    --colorC: #C5C6C7;
+    --colorD: #66FCF1;
+    --colorE: #45A29E;
+    --colorF: #bbf4f1;
+    
+    --trans-02: all 0.2s ease;
+    --trans-03: all 0.3s ease;
+    --trans-04: all 0.4s ease;
+    --trans-05: all 0.5s ease;
+
+}
+
+body {
+    background-color: white;
+}
+.menuListContainer {
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menuHeader{
+ margin-top: 150px;
+ color: var(--colorA) ;
+ display: grid;
+ grid-auto-flow: row;
+}
+
+.menuList {
+    width: 80%;
+    display: flex;
+    flex-direction:column;
+    margin-top: 100px;
+    align-content: center;
+    align-items: center;
+    margin-left: 10%;
+   
+}
+
+.mealBox{
+    width: 80%;
+    display: grid;
+    grid-auto-flow: column;
+    background-color: var(--colorF);
+    box-shadow: #474f4f;
+    gap: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mealImg{
+    width: 200px;
+    display: flex;
+    border: 2px solid var(--colorB);
+}
+
+.mealImg>img{
+ width: 100%;
+}
+
+
+.mealDetails{
+display: grid;
+grid-auto-flow: row;
+
+}
+
+.addOrder{
+    display: flex;
+    align-content: flex-end;
+    align-items:center
+}
+
+.addOrderBtn {
+    width: 200px;
+    height: 80px;
+    background-color: var(--colorA) ;
+    color: var(--colorD);
+    border: 2px solid var(--colorD);
+    border-radius: 10px;
+}   
+
+    @media(max-width:1600px) {
+        .menuListContainer {
+            width: 100%;
+        }
+    }

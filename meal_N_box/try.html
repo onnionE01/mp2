@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-ico" href="my-icon.ico" />
+    <title>MEAL-N-BOX</title>
+
+    <link href="css/footerNavBar.css" rel="stylesheet">
+    <link href="css/topNavBar.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+        integrity="sha512-eMxdaSf5XW3ZW1wZCrWItO2jZ7A9FhuZfjVdztr7ZsKNOmt6TUMTQgfpNoVRyfPE5S9BC0A4suXzsGSrAOWcoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css"
+        integrity="sha512-06CZo7raVnbbD3BlY8/hGUoUCuhk8sTdVGV3m3nuh9i2R+UmkLbLRTE/My8TuJ3ALbDulhBObJQWtOUt0mXzNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/cartQty.css" rel="stylesheet">
+    <link href="css/slider4.css" rel="stylesheet">
+    <link href="css/loginModal.css" rel="stylesheet">
+    <link href="css/trayModal.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--START OF TOP NAV MENU -->
+    <div class="topNav">
+        <img src="photos/misc/my-icon.ico" height="80px" />
+        <form class="menuSearch" role="search">
+            <input class="menuSearh searchBox" id="itemSearch" type="search" placeholder="Search" aria-label="Search">
+            <button class="searchBot" type="submit">Search</button>
+        </form>
+    </div>
+    <!--END  OF TOP NAV MENU -->
+
+    <!-- START OF BOTTOM NAV MENU-->
+    <div class="navigation">
+        <ul>
+            <li class="list" id="mealMenu">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </span>
+                    <span class="text">Menu</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="storefront-outline"></ion-icon>
+                    </span>
+                    <span class="text">Seller</span>
+                </a>
+            </li>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li class="list" id="myTrayBtn">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        <span class='badge badge-warning' id='lblCartCount'>5</span>
+                    </span>
+                    <span class="text">Tray</span>
+                </a>
+            </li>
+            <li class="list " id="myLoginBtn">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </span>
+                    <span class="text">Login</span>
+                </a>
+            </li>
+            <div class="indicator"> </div>
+        </ul>
+    </div>
+    <!-- END OF BOTTOM NAV MENU-->
+
+    <!-- Start of Main Content-->
+    <!-- Start of image slider for Featured Meals-->
+    <div>
+        <section id="slider" class="mealFeature">
+            <div class="container">
+                <div class="subcontainer">
+                    <div class="slider-wrapper">
+                        <div>
+                            <h4>Featured Meals</h4>
+                            <hr>
+                        </div>
+                        <div class="mySlider">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!-- End of image slider for Featured Meals-->
+
+    <!-- Start of image slider for Best Seller-->
+
+    <!--End of image slider for Best Seller-->
+
+
+    <!--Start of Tray Modal-->
+
+    <!-- The Modal -->
+    <div id="tray" class="trayModal">
+
+        <!-- Modal content-->
+        <div class="trayModal-content">
+            <img src="photos/misc/my-icon.ico" height="80px" />
+            <span class="closeTray">&times;</span>
+            <form>
+                <div class="contactDetails_Container">
+
+                </div>
+                <div class="orderDetails_Container">
+
+                </div>
+                <div class="paymentDetails_Container">
+
+                </div>
+                <button type="submit" class="btnProceed">PROCEED</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!--Start of Login Modal-->
+    <!-- <button id="myLoginBtn">Open Modal</button> -->
+
+    <!-- The Modal -->
+    <div id="modalLogin" class="modalLogin">
+
+        <!-- Modal content -->
+        <div class="loginModal-content">
+            <div class="loginModal-header">
+                <span class="closeLogin">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="logiModal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="logiModal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"
+    integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.js"
+    integrity="sha512-Gh7nb/SRtjHNhTDWBfVjcZgmRmBhWqIXEiVOdSkzbJF0J3j2lTbxaIDmEsQqXs12XXN7nsyDbpUSv8qQ97qzeQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/footerNavBar.js"></script>
+<script src="js/slider4.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/trayModal.js"></script>
+<script src="js/loginModal.js"></script>
+
+</html>

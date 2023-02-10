@@ -1,0 +1,268 @@
+.main-menu-container {
+    top: 100px;
+    width: 1600px;
+    margin: auto;
+    background-image: url('photo/wooden.jpeg');
+    background-attachment: fixed;
+    opacity: 0.80;
+}
+
+.menu-category {
+    width: 25%;
+    float: left;
+    background-color: rgb(119, 117, 117);
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(231, 242, 243);
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-category1 {
+    margin: 10px;
+    width: 90%;
+}
+
+.menu-category2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(71, 70, 70);
+
+}
+
+.menu-category2 {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(71, 70, 70);
+    cursor: pointer;
+}
+
+.menu-category2:hover {
+    border: 1px solid rgb(33, 250, 250);
+}
+
+
+.per-row-prod {
+    margin: 1%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(197, 201, 201)
+}
+
+.per-col-prod {
+    margin: 1%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(58, 57, 57, 0.50);
+    border-radius: 5px;
+
+}
+
+@media(max-width:1600px) {
+    .main-menu-container {
+        width: 100%;
+    }
+}
+
+
+.product-img {
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.product-img:hover {
+    box-shadow: 0 0 0 200px rgb(17, 17, 17 0.8) inset;
+    border: 2px solid rgb(32, 248, 201) inset;
+}
+
+.product-img a {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1rem;
+    color: rgb(32, 248, 201);
+}
+
+.product-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.order-img {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list {
+    width: 70%;
+    float: right;
+    background-color: rgb(115, 117, 117);
+    padding: 10px;
+    margin-top: 100px;
+    margin-right: 10px;
+    color: antiquewhite;
+}
+
+
+.mealtype-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.mealtype-img:hover {
+    box-shadow: 0 0 0 200px rgb(17, 17, 17 0.8) inset;
+}
+
+.mealtype-img a {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: rgb(44, 247, 203);
+}
+
+.mealtype-img:hover a {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.eHovr .mealtype-img {
+    border: 0px solid rgb(44, 247, 203);
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.eHovr:hover .mealtype-img {
+    border: 5px solid rgb(44, 247, 203);
+    transform: scale(1.15);
+}
+
+.breakfast-meal {
+    background-image: url('../photos/products/breakfast.jpg');
+}
+
+.lunch-meal {
+    background-image: url('../photos/products/lunch.jpg');
+}
+
+.dinner-meal {
+    background-image: url('../photos/products/dinner.jpg');
+}
+
+.snacks-meal {
+    background-image: url('../photos/products/snacks.jpg');
+}
+
+.desserts-meal {
+    background-image: url('../photos/products/dessert.jpg');
+}
+
+.addorder-div {
+    padding: 5%;
+}
+
+.addorder-but {
+    width: 70%;
+    height: 40px;
+    color: antiquewhite;
+    font-weight: bolder;
+}
+
+.order-qty {
+    border: none;
+    border-radius: 2px;
+    width: 70%;
+    height: 60px;
+    background-color: rgb(158, 240, 229);
+    text-align: center;
+}
+
+.Menu016 {
+    background-image: url('Pmenu/Menu_016.jpg');
+}
+
+.Menu017 {
+    background-image: url('Pmenu/Menu_017.jpg');
+}
+
+.Menu018 {
+    background-image: url('Pmenu/Menu_018.jpg');
+}
+
+.Menu019 {
+    background-image: url('Pmenu/Menu_019.jpg');
+}
+
+.Menu020 {
+    background-image: url('Pmenu/Menu_020.jpg');
+}
+
+.Menu021 {
+    background-image: url('Pmenu/Menu_021.jpg');
+}
+
+.Menu022 {
+    background-image: url('Pmenu/Menu_022.jpg');
+}
+
+.Menu023 {
+    background-image: url('Pmenu/Menu_023.jpg');
+}
+
+.Menu024 {
+    background-image: url('Pmenu/Menu_024.jpg');
+}
+
+.Menu025 {
+    background-image: url('Pmenu/Menu_025.jpg');
+}
+
+.Menu026 {
+    background-image: url('Pmenu/Menu_026.jpg');
+}
+
+.Menu027 {
+    background-image: url('Pmenu/Menu_027.jpg');
+}
+
+.Menu028 {
+    background-image: url('Pmenu/Menu_028.jpg');
+}
+
+.Menu029 {
+    background-image: url('Pmenu/Menu_029.jpg');
+}
+
+.Menu030 {
+    background-image: url('Pmenu/Menu_030.jpg');
+}
+

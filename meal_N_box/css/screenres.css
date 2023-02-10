@@ -1,0 +1,73 @@
+@media screen and (max-width:600px) {
+    .menu-category {
+        display: none
+    }
+
+    .product-img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .menu-img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .addorder-but {
+        width: 200px;
+        height: 40px;
+        color: antiquewhite;
+        font-weight: bolder;
+    }
+    .order-qty {
+        border: none;
+        border-radius: 2px;
+        width: 200px;
+        height: 60px;
+        background-color: rgb(158, 240, 229);
+        text-align: center;
+    }
+
+    .product-list {
+        width: 90%;
+        background-color: rgb(115, 117, 117);
+        padding: 10px;
+        margin-top: 150px;
+        margin-left: 2%;
+
+        color: antiquewhite;
+    }
+
+    .menu-img {
+        height: 150px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }    
+    .fPrice{
+        margin-right: 5px;
+    }
+    .vendor-img{
+        height:150px;
+    }
+    
+}
+
+
+@media screen and (max-width:480px) {
+    .menu-img {
+        height: 120px;
+        margin-right: 5px;
+        padding-right: 5px;
+    }    
+    .fPrice{
+        margin-right: 5px;
+    }
+    .vendor-img{
+        height:120px;
+    }
+    .mealtype-img {
+        width: 100%;
+        height: 100px;
+       
+    }
+}
